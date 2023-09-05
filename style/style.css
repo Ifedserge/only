@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wraper{
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 100%;
+}
+.container{
+    padding: 0 10px;
+    max-width: 1920px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.container img{
+    max-width: 1920px;
+    width: 100%;
+    display: block;
+    z-index: 1;
+}
+.container__buttons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.btn{
+    width: 41px;
+    height: 41px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #3877EE;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn span{
+    display: none;
+}
+.btn.active{
+    width: auto;
+    padding: 0 15px;
+}
+.btn:hover{
+   opacity: .7;
+   transition: all .4s;
+}
+#build0{
+    position: absolute;
+    left: 30.21%;
+    top: 26.21%;
+}
+#build1{
+    position: absolute;
+    left: 71.51%;
+    top: 20.83%;
+    content: '123';
+}
+#build2{
+    background-color: #6ABF4B;
+    position: absolute;
+    left: 59.79%;
+    top: 37.41%;
+}
+#build3{
+    background-color: #6ABF4B;
+    position: absolute;
+    left: 35.78%;
+    top: 44.63%;
+}
+#build4{
+    position: absolute;
+    left: 73.65%;
+    top: 43.98%;
+}
+#build5{
+    position: absolute;
+    left: 56.3%;
+    top: 58.24%;
+}
+#build6{
+    background-color: #6ABF4B;
+    position: absolute;
+    left: 68.02%;
+    top: 61.94%;
+}
+#build7{
+    position: absolute;
+    left: 82.97%;
+    top: 66.02%;
+}
+#build8{
+    position: absolute;
+    left: 23.23%;
+    top: 66.11%;
+}
+#build9{
+    background-color: #6ABF4B;
+    position: absolute;
+    left: 57.66%;
+    top: 73.15%;
+}
